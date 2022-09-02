@@ -19,7 +19,7 @@ function sound(key){
 
     switch(key){
         case "s":
-            var tom1 = new Audio('tom-1.mp3');
+            var tom1 = new Audio('tom-3.mp3');
             tom1.play();
            break;
         case "d":
@@ -27,7 +27,7 @@ function sound(key){
             tom2.play();
            break;
         case "c":
-            var tom3 = new Audio('tom-3.mp3');
+            var tom3 = new Audio('tom-1.mp3');
             tom3.play();
            break;
         case "g":
@@ -56,6 +56,6 @@ function buttonAnimation(currentKey){
 
     setTimeout(function(){
         activeButton.classList.remove("pressed");
-    },100);
+    },15);
 
 }
